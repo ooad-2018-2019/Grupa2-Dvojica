@@ -25,7 +25,7 @@ Cilj ovog projekta je da roditelji imaju uvid u ocjene, izostanke... svog djetet
 * Mogućnost brisanja postojećih učenika
 * Mogućnost kreiranja korisničkog naloga za roditelje
 * Mogućnost pretraga učenika
-* Logiranje roditelja sa korisničkim nalogom
+* Prijava roditelja sa korisničkim nalogom
 * Mjenjanje početne lozinke od strane roditelja za svoj korisnički nalog
 * Prikaz svih podataka roditelju za njegovo dijete
 * Pretraga roditelja za koje dijete želi da prikaže informacije ako ima više djece
