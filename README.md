@@ -7,11 +7,11 @@
 
 # Opis Teme
 
-Cilj ovog projekta je da roditelji imaju uvid u ocjene, izostanke... svog djeteta. Prilikom upisa djeteta u školu administrator sistema bi unosi njegove podatke i kreirao korisnički nalog za roditelje i prosljeđivao pristupne podatke roditeljima. Nakon toga bi oni mogli mijenjati lozinku. Administrator sistema jedini ima pravo da mijenja podatke o uceniku, da u potpunosti brise učenike iz sistema ili da gasi korisničke naloge za roditelje. Pristup sistemu bez pristupnih podataka nebi bio moguć. Roditelji bi imali opciju da dobivaju sva obavještenja u vidu e-mail poruke kao što su: obavještenje o roditeljskim sastancima, poziv roditelja na razgovor. Profesori bi imali pravo da za predmet na kojem oni predaju za njihove učenike unose potrebne podatke a za ostale predmete kojima ne predaju ne bi imali pravo pristupa. Direktor škole bi imao uvid u sve podatke.
+Cilj ovog projekta je da roditelji imaju uvid u ocjene, izostanke... svog djeteta. Prilikom upisa djeteta u školu administrator sistema bi unosio njegove podatke i kreirao korisnički nalog za roditelje i prosljeđivao pristupne podatke roditeljima. Nakon toga bi oni mogli mijenjati lozinku. Administrator sistema jedini ima pravo da mijenja podatke o uceniku, da u potpunosti briše učenike iz sistema ili da gasi korisničke naloge za roditelje. Pristup sistemu bez pristupnih podataka ne bi bio moguć. Roditelji bi imali opciju da dobivaju sva obavještenja u vidu e-mail poruke kao što su: obavještenje o roditeljskim sastancima, poziv roditelja na razgovor. Profesori bi imali pravo da za predmet na kojem oni predaju za njihove učenike unose potrebne podatke a za ostale predmete kojima ne predaju ne bi imali pravo pristupa. Direktor škole bi imao uvid u sve podatke.
 
 # Procesi
 
-* Kreiranje korisničkih naloga sa e-mail i lozinkom
+* Kreiranje korisničkih naloga sa e-mailom i lozinkom
 * Registrovanje/editovanje/brisanje podataka o učenicima od starane Admina sistema
 * Prijava Roditelja/Profesora u sistem sa pristupnim podacima
 * Razne pretrage Roditelja,Profesora tako Admina sistema po raznim parametrima
