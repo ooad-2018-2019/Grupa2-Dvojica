@@ -34,7 +34,6 @@ Cilj ovog projekta je da roditelji imaju uvid u ocjene i izostanke svog djeteta.
 * Prikaz svih podataka o uceniku njegovom roditelju
 * Pretraga roditelja za koje dijete želi da prikaže informacije ako ima više djece
 * Dodavanje ocjena i izostanaka od strane profesora
-* Kreiranje izvještaja od strane profesora
 * Slanje obavještenja na e-mail
 
 # Akteri
