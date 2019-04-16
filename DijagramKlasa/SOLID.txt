@@ -1,0 +1,18 @@
+1. PRINCIP POJEDINAÈNE ODGOVORNOSTI	
+Princip pojedinaène odgovornosti (SRP) glasi : "Klasa bi trebala imati samo jedan razlog za promjenu". U našem dijagramu ovaj princip nije u potpunosti ispoštovan. Klasa Profesor, za primjer, bavi se unosom ocjena, korigovanjem prisustva i slanjem obavijesti. Bolja opcija bi bila razdvajanje tih "poslova", tj. kreiranjem dodatnih klasa koje æe obavljati samo po jedan od tih poslova. 
+
+2. OTVORENO ZAVOREN PRINCIP 
+Otvoreno zatvoren princip (OCP) glasi: "Entiteti softvera trebali bi biti otvoreni za nadogradnju, ali zatvoreni za modifikacije". Princip ispoštovan (modifikacije koje bi se desile u nekoj od klasa vukle bi promjene u bazi podataka, ne u ostalim klasama)
+
+3. LISKOV PRINCIP ZAMJENE
+Liskov princip zamjene (LSP) glasi:"Podtipovi moraju biti zamjenjivi njihovim osnovnim tipovima". Princip ispoštovan (klase naslijedjene iz klase Opci podaci koriste sve metode i atribute navedene klase)
+
+4. PRINCIP INVERZIJE OVISNOSTI(DIP)
+Princip inverzije ovisnosti glasi: 
+	A:”Moduli visokog nivoa ne bi trebali ovisiti od modula niskog nivoa. Oba bi trebalo da ovise od apstrakcija”
+	B:”Moduli ne bi trebali ovisiti od detalja. Detalji bi trebali biti ovisni od apstrakcija"
+Princip je ispoštovan, jer klase Roditelj, Dijete i Profesor ovise o klasi Opci podaci koja je apstraktna.
+
+5.PRINCIP IZOLIRANJA INTERFEJSA(ISP)
+Princip izoliranja interfejsa glasi: "Klijent ne treba da ovise o metodama koje neæe upotrebljavati". Princip je ispoštovan. Metode u klasama su takve da se njima ostvaruje funkcionalnost èitavog sistema (stalno su opotrebljive). Na dijagramu su èak u veæini klasa izostavljeni geteri i seteri radi preglednosti. Kad se na prikazane metode dodaju ti geteri i seteri  princip neæe biti narušen.
+ 
