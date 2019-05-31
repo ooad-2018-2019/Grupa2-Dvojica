@@ -1,6 +1,6 @@
 using System;
 
-namespace E_DnevnikWebApplication.Models
+namespace EDnevnik.Models
 {
     public class ErrorViewModel
     {

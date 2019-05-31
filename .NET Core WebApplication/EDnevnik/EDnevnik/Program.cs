@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace E_DnevnikWebApplication
+namespace EDnevnik
 {
     public class Program
     {

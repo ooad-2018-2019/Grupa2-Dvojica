@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace E_DnevnikWebApplication.Migrations
+namespace EDnevnik.Migrations
 {
-    public partial class inicijalna : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,9 +14,9 @@ namespace E_DnevnikWebApplication.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Ime = table.Column<string>(nullable: true),
-                    Prezime = table.Column<string>(nullable: true),
-                    jmbg = table.Column<string>(nullable: true),
+                    Ime = table.Column<string>(nullable: false),
+                    Prezime = table.Column<string>(nullable: false),
+                    jmbg = table.Column<string>(nullable: false),
                     datumRodenja = table.Column<DateTime>(nullable: false),
                     napomena = table.Column<string>(nullable: true)
                 },

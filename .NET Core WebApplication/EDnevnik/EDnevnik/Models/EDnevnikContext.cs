@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace E_DnevnikWebApplication.Models
+namespace EDnevnik.Models
 {
-    public class EDnevnikContext : DbContext
+    public class EDnevnikContext:DbContext
     {
         public EDnevnikContext(DbContextOptions<EDnevnikContext> options) : base(options)
         {

@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using E_DnevnikWebApplication.Models;
+using EDnevnik.Models;
 
-namespace E_DnevnikWebApplication.Controllers
+namespace EDnevnik.Controllers
 {
     public class HomeController : Controller
     {
